@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança da Informação - Alertas e Dicas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat :wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .logo-container {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 15px;
+        }
+        .logo-container img {
+            height: 70px; /* ajuste conforme necessário */
+        }
+
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        audio {
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .illustration-placeholder {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Logo adicionado aqui -->
+    <span class="logo-container">
+        <img src="Logo.png" alt="LOGO">
+    </span>
+
+    <h1>Segurança da Informação: Fique Alerta!</h1>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#noticias">Notícias e Alertas</a>
+        <a href="#dicas">Dicas de Segurança</a>
+        <a href="#quiz">Teste seus Conhecimentos</a>
+        <a href="#podcast">Ouça: Dicas de Segurança</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="inicio">
+        <img src="illustration_welcome.png" alt="Ilustração de Boas-vindas sobre Segurança Digital" class="illustration-placeholder">
+        <h2>Bem-vindo! Proteja-se no Mundo Digital.</h2>
+        <p>Este espaço é dedicado a mantê-lo informado sobre as últimas notícias, alertas de golpes, perigos atuais no mundo digital e dicas essenciais de segurança da informação. Nosso objetivo é fornecer conhecimento para que você possa navegar na internet e utilizar seus dispositivos com mais segurança.</p>
+        <p>Explore as seções abaixo para se atualizar e teste seus conhecimentos com nosso quiz interativo. A informação é sua melhor defesa!</p>
+    </section>
+
+    <section id="noticias">
+        <h2>Notícias e Alertas Recentes</h2>
+        <img src="illustration_news.png" alt="Ilustração para Notícias e Alertas" class="illustration-placeholder">
+        <div class="news-item">
+            <h3>Novo golpe no YouTube usa vídeos de cheats para espalhar vírus Arcane Stealer que rouba dados.</h3>
+            <p>Cibercriminosos estão utilizando vídeos no YouTube que prometem cheats e vantagens em jogos populares para disseminar o malware Arcane Stealer. Este vírus é projetado para roubar informações pessoais e credenciais de acesso dos usuários infectados. É crucial que os jogadores estejam atentos a promessas duvidosas e evitem baixar arquivos de fontes não confiáveis, mesmo que pareçam oferecer benefícios em seus jogos favoritos. A atenção a links suspeitos e o uso de soluções de segurança robustas são essenciais para evitar esse tipo de ameaça.</p>
+            <p><a href="https://www.kaspersky.com.br/blog/category/news/ " target="_blank">Leia mais [Kaspersky]</a></p>
+        </div>
+        <div class="news-item">
+            <h3>CES 2025 revela inovações em gadgets e eletrodomésticos inteligentes, levantando questões sobre cibersegurança.</h3>
+            <p>A Consumer Electronics Show (CES) 2025, realizada em Las Vegas, apresentou centenas de novos gadgets e eletrodomésticos inteligentes. Essas inovações, embora tragam conveniência, também introduzem novos vetores de ataque e preocupações com a segurança cibernética. É fundamental que tanto fabricantes quanto consumidores considerem os aspectos de segurança desde o design até o uso diário desses dispositivos, implementando medidas como senhas fortes, atualizações regulares e segmentação de rede para mitigar os riscos associados à crescente conectividade dos lares.</p>
+            <p><a href="https://www.kaspersky.com.br/blog/category/news/ " target="_blank">Leia mais [Kaspersky]</a></p>
+        </div>
+    </section>
+
+    <section id="dicas">
+        <h2>Dicas Essenciais de Segurança para o seu Dia a Dia</h2>
+        <img src="illustration_tips.png" alt="Ilustração para Dicas de Segurança" class="illustration-placeholder">
+        <ul>
+            <li><strong>Crie Senhas Fortes e Únicas:</strong> Use combinações complexas de letras maiúsculas e minúsculas, números e símbolos. Evite usar a mesma senha para múltiplas contas. Considere um gerenciador de senhas.</li>
+            <li><strong>Desconfie de Mensagens Suspeitas (Phishing):</strong> Não clique em links ou baixe anexos de e-mails, SMS ou mensagens instantâneas de remetentes desconhecidos ou que pareçam suspeitos, mesmo que pareçam ser de empresas conhecidas. Verifique sempre o endereço do remetente e, na dúvida, acesse o site oficial da empresa diretamente no navegador.</li>
+        </ul>
+    </section>
+
+    <section id="quiz">
+        <h2>Teste Seus Conhecimentos em Segurança Digital</h2>
+        <img src="illustration_quiz.png" alt="Ilustração para Quiz de Segurança Digital" class="illustration-placeholder">
+        <div id="quiz-container">
+            <!-- O quiz será preenchido dinamicamente pelo script.js -->
+        </div>
+        <button id="submit-quiz">Verificar Respostas</button>
+        <div id="quiz-results"></div>
+    </section>
+
+<!-- Nova seção adicionada -->
+    <section id="podcast">
+        <h2>Ouça: Boas Práticas_ Uso de E-mails e Segurança da Informação na USP</h2>
+        <p>Audio gerado 01/06/2025</p>
+
+        <audio controls>
+            <source src="Boas Práticas_ Uso de E-mails e Segurança da Informação na USP.wav" type="audio/wav">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+	
+    <!-- Nova seção adicionada -->
+    <section id="podcast">
+        <h2>Ouça: Como Evitar Golpes Online_ Phishing e Outras Fraudes</h2>
+        <p>Audio gerado 01/06/2025</p>
+
+        <audio controls>
+            <source src="Como Evitar Golpes Online_ Phishing e Outras Fraudes.wav" type="audio/wav">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+	
+	<!-- Nova seção adicionada -->
+    <section id="podcast">
+        <h2>Ouça: O Golpe da Selfie e a Fraude na Biometria Facial</h2>
+        <p>Aqui está um podcast  resumido:</p>
+
+        <audio controls>
+            <source src="O Golpe da Selfie e a Fraude na Biometria Facial.wav" type="audio/wav">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+	
+	
+	<!-- Nova seção adicionada -->
+    <section id="podcast">
+        <h2>Ouça: Discussão Sobre Segurança da Informação</h2>
+        <p>Aqui está um podcast com dicas importantes sobre segurança cibernética:</p>
+
+        <audio controls>
+            <source src="Blog da Kaspersky_ Segurança Cibernética e Produtos.wav" type="audio/wav">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+	
+	  <!-- Nova seção adicionada -->
+    <section id="podcast">
+        <h2>Ouça: Segurança da Informação Custo ou Investimento</h2>
+        <p>Aqui está um podcast  resumido:</p>
+
+        <audio controls>
+            <source src="Segurança da Informação_ Custo ou Investimento_.wav" type="audio/wav">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+
+
+ <!-- Nova seção adicionada -->
+    <section id="podcast">
+        <h2>Ouça: O Golpe da Selfie e a Fraude na Biometria Facial</h2>
+        <p>Aqui está um podcast  resumido:</p>
+
+        <audio controls>
+            <source src="O Golpe da Selfie e a Fraude na Biometria Facial.wav" type="audio/wav">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+	
+</main>
+
+<footer>
+    <p>&copy; 2025 Sua Empresa - Intranet de Segurança da Informação. Conteúdo informativo para um ambiente digital mais seguro.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

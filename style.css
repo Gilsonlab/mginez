@@ -1,0 +1,246 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background: linear-gradient(90deg, #00A99D, #007760);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem; /* Add some padding if logo is too close to edge */
+}
+
+#company-logo {
+    height: 50px; /* Adjust as needed */
+    margin-right: 15px; /* Space between logo and title */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav {
+    margin-top: 0.8rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 18px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 1.5rem auto;
+    overflow: hidden;
+}
+
+main section {
+    display: none;
+    background: #fff;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+}
+
+section.visible {
+    display: block !important;
+}
+
+section h2 {
+    color: #007760;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #00A99D;
+    padding-bottom: 0.4rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.6rem;
+    padding-left: 1.3rem;
+    position: relative;
+}
+
+li::before {
+    content: '\2713';
+    color: #00A99D;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #343a40;
+    color: #f8f9fa;
+    margin-top: 1.5rem;
+}
+
+/* Estilos para o Quiz */
+#quiz-container .question-block {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+#quiz-container .question-block:last-child {
+    border-bottom: none;
+}
+
+#quiz-container p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+#quiz-container label {
+    display: block;
+    margin-bottom: 0.6rem;
+    background-color: #f8f9fa;
+    padding: 0.7rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#quiz-container label:hover {
+    background-color: #e9ecef;
+}
+
+#quiz-container input[type="radio"] {
+    margin-right: 0.7rem;
+    transform: scale(1.1);
+}
+
+#submit-quiz {
+    background: #0078D7;
+    color: white;
+    border: 0;
+    padding: 0.7rem 1.6rem;
+    cursor: pointer;
+    border-radius: 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+}
+
+#submit-quiz:hover {
+    background: #005ea6;
+}
+
+#quiz-results h3 {
+    color: #007760;
+    margin-bottom: 0.8rem;
+}
+
+#quiz-results p {
+    padding: 0.7rem 0.9rem;
+    border-radius: 6px;
+    margin-top: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.correct-answer {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+
+.incorrect-answer {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+
+.explanation {
+    font-size: 0.9em;
+    color: #495057;
+    margin-top: 0.6rem;
+    padding: 0.7rem 0.9rem;
+    border-left: 3px solid #00A99D;
+    background-color: #f8f9fa;
+    border-radius: 0 6px 6px 0;
+}
+
+/* Estilos para notícias */
+.news-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-item h3 {
+    margin-top: 0;
+    color: #0056b3;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.news-item p {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.news-item strong {
+    color: #343a40;
+}
+
+.news-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+img.illustration-placeholder {
+    max-width: 100%;
+    height: auto;
+    max-height: 220px;
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+    background-color: #e9ecef;
+    object-fit: contain;
+}
+
